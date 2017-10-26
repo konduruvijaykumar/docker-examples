@@ -11,7 +11,8 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# Commented for adding jar file as part of project docker-on-aws, which is needed for testing
+#*.jar
 *.war
 *.ear
 *.zip
