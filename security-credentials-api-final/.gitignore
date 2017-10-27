@@ -1,0 +1,30 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+## Added by me ###
+mvnw*
+
+# Added as precaution due to root reprository .gitignore allowing *.jar files for the project docker-on-aws, which is needed for testing. Commenting for now as target folder ignore is restricting the checkin of jar 
+#*.jar
