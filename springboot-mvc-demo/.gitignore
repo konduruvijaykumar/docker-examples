@@ -26,5 +26,5 @@ nbdist/
 ## Added by me ###
 mvnw*
 
-# Added as precaution due to root reprository .gitignore allowing *.jar files for the project docker-on-aws, which is needed for testing
-*.jar
+# Added as precaution due to root reprository .gitignore allowing *.jar files for the project docker-on-aws, which is needed for testing. Commenting for now as target folder ignore is restricting the checkin of jar
+#*.jar
